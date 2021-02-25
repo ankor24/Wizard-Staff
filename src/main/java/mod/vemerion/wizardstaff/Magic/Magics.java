@@ -31,6 +31,7 @@ import mod.vemerion.wizardstaff.Magic.original.ClockMagic;
 import mod.vemerion.wizardstaff.Magic.original.EggMagic;
 import mod.vemerion.wizardstaff.Magic.original.ElytraMagic;
 import mod.vemerion.wizardstaff.Magic.original.GoldMagic;
+import mod.vemerion.wizardstaff.Magic.original.DiamondMagic;
 import mod.vemerion.wizardstaff.Magic.original.JukeboxMagic;
 import mod.vemerion.wizardstaff.Magic.original.WizardStaffMagic;
 import mod.vemerion.wizardstaff.Magic.original.WritableBookMagic;
@@ -109,6 +110,7 @@ public class Magics extends JsonReloadListener {
 		register("egg_magic", (s) -> () -> new EggMagic(s));
 		register("elytra_magic", (s) -> () -> new ElytraMagic(s));
 		register("gold_magic", (s) -> () -> new GoldMagic(s));
+		register("diamond_magic", (s) -> () -> new DiamondMagic(s));
 		register("jukebox_magic", (s) -> () -> new JukeboxMagic(s));
 		register("wizard_staff_magic", (s) -> () -> new WizardStaffMagic(s));
 		register("writable_book_magic", (s) -> () -> new WritableBookMagic(s));
