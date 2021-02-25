@@ -31,6 +31,7 @@ import mod.vemerion.wizardstaff.Magic.original.ClockMagic;
 import mod.vemerion.wizardstaff.Magic.original.EggMagic;
 import mod.vemerion.wizardstaff.Magic.original.ElytraMagic;
 import mod.vemerion.wizardstaff.Magic.original.GoldMagic;
+import mod.vemerion.wizardstaff.Magic.original.DiamondMagic;
 import mod.vemerion.wizardstaff.Magic.original.JukeboxMagic;
 import mod.vemerion.wizardstaff.Magic.original.WizardStaffMagic;
 import mod.vemerion.wizardstaff.Magic.original.WritableBookMagic;
